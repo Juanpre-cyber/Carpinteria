@@ -1,0 +1,41 @@
+:root{
+    --verde: #00a149;
+    --blanco:#fff;
+    --rojo:#881014;
+    --oscuro:#000;
+    --titutlo:'Arima Madurai',cursive;
+    --parrafos:'Mulish',sans-serif;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+body{
+    font-size: 1.6rem;
+}
+*,*::after, *::before{
+    box-sizing: inherit;
+}
+/*globales*/
+.contenedor{
+    max-width: 200rem;
+    margin: auto 0;
+    width: 95%;
+}
+h1,h2{
+    font-family: var(--titutlo);
+}
+h3, p, a{
+    font-family: var(--parrafos);
+}
+/*Encabezado*/
+.contenedor-navegacion{
+    background-color: var(--oscuro);
+}
+
+.contenido-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
